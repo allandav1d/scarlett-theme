@@ -1,0 +1,41 @@
+/* ============================================================
+   Scarlett — GNOME Shell Theme
+   A dark theme with deep reds and feminine elegance
+   ============================================================ */
+
+/* --- Palette ---
+   Background : #0f0a0a
+   Surface    : #1a0f0f
+   Scarlett   : #c0392b
+   Rose       : #e74c3c
+   Text       : #f5e6e6
+   Subtle     : #7a5c5c
+   ---------------------------------------------------------- */
+
+/* Panel / Top Bar */
+#panel {
+  margin: 6px 10px 0px 10px;
+  border-radius: 14px;
+  background-color: rgba(26, 15, 15, 0.90);
+  border: 1px solid rgba(192, 57, 43, 0.20);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+  color: #f5e6e6;
+}
+
+#panel .panel-button {
+  border-radius: 8px;
+  padding: 0 10px;
+  color: #f5e6e6;
+  -natural-hpadding: 10px;
+}
+
+#panel .panel-button:hover {
+  background-color: rgba(192, 57, 43, 0.20);
+  color: #e74c3c;
+}
+
+#panel .panel-button:active,
+#panel .panel-button:checked {
+  background-color: rgba(192, 57, 43, 0.30);
+  color: #e74c3c;
+}
